@@ -14,7 +14,7 @@
     "tiny-invariant": "^1.2.0"
   },
   "name": "thorchain.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A javascript libary that allows you to work with mulitiple blockchains and interact with thorswap",
   "main": "build/commonjs/index.js",
   "module": "build/module/index.js",
