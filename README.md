@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ThorChain.js
 
 Thorchain.js is a libary that allows you to work with mutiple chains including, Thorchain, Bitcoin, Dogecoin, Ethereum, Etc<br>
@@ -34,3 +35,9 @@ const client = new thorchain.client({
 3. After you get your client setup youre all good to start using this libary
 
 4. Check out the examples folder to learn how to do things. Official documentation wont be made until package is done
+=======
+# thorchain.js
+A javascript libary for making swaps, sending rune, btc, eth, doge, etc, adding liquidity within thorswap, etc, etc
+Join the Discord https://discord.gg/9yMK4BeFA6 for updates and if you want beta builds
+# Currently being developed
+>>>>>>> ccc502e72844b7e96bbb885a6f1b5dbd643c071c
