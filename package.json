@@ -1,20 +1,18 @@
 {
   "dependencies": {
     "@cosmos-client/core": "^0.45.3",
-    "@sifchain/sdk": "0.0.0-snapshot.7f1b6fa5",
     "@xchainjs/xchain-bitcoin": "^0.18.1",
     "@xchainjs/xchain-client": "^0.11.1",
-    "@xchainjs/xchain-cosmos": "^0.17.0",
     "@xchainjs/xchain-crypto": "^0.2.6",
     "@xchainjs/xchain-thorchain": "^0.24.1",
     "@xchainjs/xchain-util": "^0.7.0",
-    "axios": "^0.27.2",
     "bech32-buffer": "^0.2.0",
     "bitcoinjs-lib": "^6.0.1",
+    "thorchain.js": "^0.0.4",
     "tiny-invariant": "^1.2.0"
   },
   "name": "thorchain.js",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A javascript libary that allows you to work with mulitiple blockchains and interact with thorswap",
   "main": "build/commonjs/index.js",
   "module": "build/module/index.js",
