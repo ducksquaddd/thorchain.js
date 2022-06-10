@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@cosmos-client/core": "^0.45.3",
+    "@cosmjs/amino": "^0.28.4",
     "@xchainjs/xchain-bitcoin": "^0.18.1",
     "@xchainjs/xchain-client": "^0.11.1",
     "@xchainjs/xchain-crypto": "^0.2.6",
