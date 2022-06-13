@@ -1,4 +1,4 @@
-const thorchain = require("@ducksquaddd/thorchain.js");
+const thorchain = require("thorchain.js");
 
 (async () => {
   const client = new thorchain.client({

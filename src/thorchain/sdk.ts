@@ -1,14 +1,6 @@
 /* YOU WILL FIND ALOT OF TS-IGNORE's THROUGHOUT THIS PROJECT. YOU CAN FIX THEM IF YOU WANT I DONT REALLY CARE */
 
-import {
-  TxHash,
-  Network,
-  Fees,
-  TxsPage,
-  TxHistoryParams,
-  Tx,
-} from "@xchainjs/xchain-client";
-import { decryptFromKeystore, Keystore } from "@xchainjs/xchain-crypto";
+import { TxHash, Network, Fees } from "@xchainjs/xchain-client";
 import {
   baseAmount,
   Chain,

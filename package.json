@@ -1,33 +1,39 @@
 {
-  "dependencies": {
-    "@cosmjs/amino": "^0.28.4",
-    "@xchainjs/xchain-bitcoin": "^0.18.1",
-    "@xchainjs/xchain-client": "^0.11.1",
-    "@xchainjs/xchain-crypto": "^0.2.6",
-    "@xchainjs/xchain-thorchain": "^0.24.1",
-    "@xchainjs/xchain-util": "^0.7.0",
-    "bech32-buffer": "^0.2.0",
-    "bitcoinjs-lib": "^6.0.1",
-    "thorchain.js": "^0.0.4",
-    "tiny-invariant": "^1.2.0"
-  },
   "name": "thorchain.js",
-  "version": "0.0.5",
-  "description": "A javascript libary that allows you to work with mulitiple blockchains and interact with thorswap",
-  "main": "build/commonjs/index.js",
-  "module": "build/module/index.js",
-  "types": "build/typescript/index.d.ts",
-  "repository": "https://github.com/ducksquaddd/thorchain.js.git",
-  "author": "ducksquaddd <ducksquadddd@gmail.com>",
-  "license": "MIT",
-  "private": false,
+  "version": "0.0.7",
+  "description": "Thorchain.js is a libary that lets you interact with mutiple blockchains perform swaps, etc",
+  "main": "src/index.js",
   "scripts": {
-    "build": "tsc -b tsconfig.commonjs.json tsconfig.module.json tsconfig.declaration.json"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "files": [
-    "build"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducksquaddd/thorchain.js.git"
+  },
+  "keywords": [
+    "thorchain",
+    "thorchain.js",
+    "thorswap",
+    "multichain",
+    "bitcoin"
   ],
-  "devDependencies": {
-    "@types/node": "^16.11.31"
+  "author": "ducksquaddd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducksquaddd/thorchain.js/issues"
+  },
+  "homepage": "https://github.com/ducksquaddd/thorchain.js",
+  "packageManager": "yarn@3.2.1",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@xchainjs/xchain-bitcoin": "^0.18.2",
+    "@xchainjs/xchain-client": "^0.11.3",
+    "@xchainjs/xchain-thorchain": "^0.24.1",
+    "@xchainjs/xchain-util": "^0.7.1",
+    "thorchain.js": "^0.0.7",
+    "typescript": "^4.7.3"
   }
 }

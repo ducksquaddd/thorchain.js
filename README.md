@@ -1,3 +1,5 @@
+# I have no clue why this wont work with like npm and what not i need helkp please
+
 # ThorChain.js
 
 Thorchain.js is a libary that allows you to work with mutiple chains including, Thorchain, Bitcoin, Dogecoin, Ethereum, Etc<br>

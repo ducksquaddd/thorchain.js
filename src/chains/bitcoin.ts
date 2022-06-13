@@ -1,6 +1,6 @@
 /* YOU WILL FIND ALOT OF TS-IGNORE's THROUGHOUT THIS PROJECT. YOU CAN FIX THEM IF YOU WANT I DONT REALLY CARE */
 
-import { TxHash, Balance, Network } from "@xchainjs/xchain-client";
+import { TxHash, Network } from "@xchainjs/xchain-client";
 import { Client as BitClient } from "@xchainjs/xchain-bitcoin";
 import {
   baseAmount,
