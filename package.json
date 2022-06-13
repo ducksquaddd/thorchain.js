@@ -1,6 +1,6 @@
 {
   "name": "thorchain.js",
-  "version": "0.0.14",
+  "version": "0.0.16",
   "description": "Thorchain.js is a libary that lets you interact with mutiple blockchains perform swaps, etc",
   "main": "lib/index.js",
   "scripts": {
@@ -35,6 +35,7 @@
     "@cosmos-client/core": "^0.45.9",
     "@xchainjs/xchain-bitcoin": "^0.18.2",
     "@xchainjs/xchain-client": "^0.11.3",
+    "@xchainjs/xchain-cosmos": "^0.17.0",
     "@xchainjs/xchain-thorchain": "^0.24.1",
     "@xchainjs/xchain-util": "^0.7.1",
     "bignumber.js": "^9.0.2",
